@@ -60,7 +60,7 @@ def test_sla_is_breached_for_old_open_ticket_and_met_for_timely_resolved_ticket(
 def test_summary_counts_active_breached_and_at_risk():
     raw = pd.DataFrame({
         "ticket_id": ["T1", "T2", "T3"],
-        "created_at": ["2026-11-22 06:00:00", "2026-11-22 08:30:00", "2026-11-22 09:00:00"],
+        "created_at": ["2026-11-22 05:00:00", "2026-11-22 08:30:00", "2026-11-22 09:00:00"],
         "subject": ["Account hacked", "Password reset help", "Feature request"],
         "description": ["Fraud and unauthorized access", "Need help to sign in", "I would like a new feature"],
         "status": ["Open", "Open", "Resolved"],
