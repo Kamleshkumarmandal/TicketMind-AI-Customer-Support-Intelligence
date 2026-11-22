@@ -6,6 +6,9 @@ TicketMind is a Streamlit dashboard that helps support teams triage customer tic
 
 ## Features
 
+🚀Live demo
+https://ticketmind-ai-customer-support-intelligence-eqenzxssvjguesfbka.streamlit.app/
+
 - Upload CSV or Excel customer-support ticket exports.
 - Predict category and customer sentiment locally on the app host.
 - Assign Low, Medium, High or Urgent priority using visible keyword and impact signals.
